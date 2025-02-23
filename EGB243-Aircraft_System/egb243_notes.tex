@@ -1,0 +1,126 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+\title{Summary of Equations in Aerodynamics Lecture}
+\author{}
+\date{}
+\maketitle
+
+\section{Fundamental Aerodynamics Equations}
+
+\subsection{Equation of State for a Gas (Ideal Gas Law)}
+\begin{equation}
+    p = \rho R T
+\end{equation}
+where:
+\begin{itemize}
+    \item $p$ = Pressure
+    \item $\rho$ = Density
+    \item $R$ = Specific Gas Constant (e.g., 287 J/kg$\cdot$K for air)
+    \item $T$ = Temperature (Kelvin)
+\end{itemize}
+
+\subsection{Specific Volume}
+\begin{equation}
+    v = \frac{1}{\rho}
+\end{equation}
+where $v$ is the specific volume (volume per unit mass).
+
+\subsection{Kinetic Energy and Temperature Relation}
+\begin{equation}
+    K_e = \frac{3}{2} k T
+\end{equation}
+where:
+\begin{itemize}
+    \item $K_e$ = Average kinetic energy of molecules
+    \item $k$ = Boltzmann constant ($1.38 \times 10^{-23}$ J/K)
+    \item $T$ = Temperature (Kelvin)
+\end{itemize}
+
+\subsection{Shear Stress Due to Viscosity (Newton’s Law of Friction)}
+\begin{equation}
+    \tau = \mu \frac{du}{dy}
+\end{equation}
+where:
+\begin{itemize}
+    \item $\tau$ = Shear stress
+    \item $\mu$ = Dynamic viscosity
+    \item $\frac{du}{dy}$ = Velocity gradient
+\end{itemize}
+
+\subsection{Reynolds Number (Flow Characterization)}
+\begin{equation}
+    Re = \frac{\rho V l}{\mu} = \frac{V l}{\nu}
+\end{equation}
+where:
+\begin{itemize}
+    \item $Re$ = Reynolds number
+    \item $V$ = Flow velocity
+    \item $l$ = Characteristic length (e.g., airfoil chord)
+    \item $\mu$ = Dynamic viscosity
+    \item $\nu$ = Kinematic viscosity
+\end{itemize}
+
+\subsection{Mach Number (Compressibility Effects)}
+\begin{equation}
+    M = \frac{V}{a}
+\end{equation}
+where:
+\begin{itemize}
+    \item $M$ = Mach number
+    \item $V$ = Object speed
+    \item $a$ = Speed of sound in the medium
+\end{itemize}
+
+\section{Example Calculations}
+
+\subsection{Finding Temperature Using Ideal Gas Law}
+\begin{equation}
+    T = \frac{p}{\rho R}
+\end{equation}
+Example:
+\begin{equation}
+    T = \frac{8.9876 \times 10^4}{(1.1117)(287)} = 281K
+\end{equation}
+
+\subsection{Air Weight in a Room}
+First, use the equation of state to find $\rho$:
+\begin{equation}
+    \rho = \frac{p}{RT}
+\end{equation}
+Then, find mass:
+\begin{equation}
+    m = \rho V
+\end{equation}
+Finally, weight:
+\begin{equation}
+    W = mg
+\end{equation}
+
+\subsection{Percentage Change in Air Weight Due to Temperature Drop}
+Since the temperature changes, we recalculate density:
+\begin{equation}
+    \rho = \frac{2116}{(1716)(460 -10)} = 0.00274 \frac{\text{slug}}{\text{ft}^3}
+\end{equation}
+Compare densities:
+\begin{equation}
+    \Delta \rho = 0.00274 - 0.00237 = 0.00037 \frac{\text{slug}}{\text{ft}^3}
+\end{equation}
+Percentage change:
+\begin{equation}
+    \% \text{change} = \frac{\Delta \rho}{\rho} \times 100 = \frac{0.00037}{0.00237} \times 100 = 15.6\%\text{ increase}
+\end{equation}
+
+Alternative solution:
+\begin{equation}
+    \Delta W = \Delta m \cdot g = 0.888 \times 32.2 = 28.5936 \text{ lb}
+\end{equation}
+\begin{equation}
+    \% \text{change} = \frac{\Delta W}{W_1} \times 100 = \frac{28.5936}{183} \times 100 = 15.6\%
+\end{equation}
+
+\end{document}
