@@ -1,9 +1,9 @@
-PWD /home/bobobo/Notes/resume
+PWD /home/bobobo/Notes/my_resume/resume
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/bobobo/Notes/resume/resume.tex
+INPUT /home/bobobo/Notes/my_resume/resume/resume.tex
 OUTPUT resume.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
