@@ -27,17 +27,17 @@
 \end{equation}
 where:
 \begin{itemize}
-    \item $p$ = Pressure
-    \item $\rho$ = Density
-    \item $R$ = Specific Gas Constant (e.g., 287 J/kg$\cdot$K for air)
-    \item $T$ = Temperature (Kelvin)
+    \item $p$ = Pressure (Pa or N/m$^2$)
+    \item $\rho$ = Density (kg/m$^3$)
+    \item $R$ = Specific Gas Constant (J/kg$\cdot$K)
+    \item $T$ = Temperature (K)
 \end{itemize}
 
 \subsection{Specific Volume}
 \begin{equation}
     v = \frac{1}{\rho}
 \end{equation}
-where $v$ is the specific volume (volume per unit mass).
+where $v$ is the specific volume (m$^3$/kg).
 
 \subsection{Kinetic Energy and Temperature Relation}
 \begin{equation}
@@ -45,9 +45,9 @@ where $v$ is the specific volume (volume per unit mass).
 \end{equation}
 where:
 \begin{itemize}
-    \item $K_e$ = Average kinetic energy of molecules
+    \item $K_e$ = Average kinetic energy of molecules (J)
     \item $k$ = Boltzmann constant ($1.38 \times 10^{-23}$ J/K)
-    \item $T$ = Temperature (Kelvin)
+    \item $T$ = Temperature (K)
 \end{itemize}
 
 \subsection{Shear Stress Due to Viscosity (Newton’s Law of Friction)}
@@ -56,9 +56,9 @@ where:
 \end{equation}
 where:
 \begin{itemize}
-    \item $\tau$ = Shear stress
-    \item $\mu$ = Dynamic viscosity
-    \item $\frac{du}{dy}$ = Velocity gradient
+    \item $\tau$ = Shear stress (Pa or N/m$^2$)
+    \item $\mu$ = Dynamic viscosity (Pa$\cdot$s or N$\cdot$s/m$^2$)
+    \item $\frac{du}{dy}$ = Velocity gradient (s$^{-1}$)
 \end{itemize}
 
 \subsection{Reynolds Number (Flow Characterization)}
@@ -67,11 +67,11 @@ where:
 \end{equation}
 where:
 \begin{itemize}
-    \item $Re$ = Reynolds number
-    \item $V$ = Flow velocity
-    \item $l$ = Characteristic length (e.g., airfoil chord)
-    \item $\mu$ = Dynamic viscosity
-    \item $\nu$ = Kinematic viscosity
+    \item $Re$ = Reynolds number (dimensionless)
+    \item $V$ = Flow velocity (m/s)
+    \item $l$ = Characteristic length (m)
+    \item $\mu$ = Dynamic viscosity (Pa$\cdot$s or N$\cdot$s/m$^2$)
+    \item $\nu$ = Kinematic viscosity (m$^2$/s)
 \end{itemize}
 
 \subsection{Mach Number (Compressibility Effects)}
@@ -80,9 +80,9 @@ where:
 \end{equation}
 where:
 \begin{itemize}
-    \item $M$ = Mach number
-    \item $V$ = Object speed
-    \item $a$ = Speed of sound in the medium
+    \item $M$ = Mach number (dimensionless)
+    \item $V$ = Object speed (m/s)
+    \item $a$ = Speed of sound in the medium (m/s)
 \end{itemize}
 
 \section{Example Calculations}
@@ -105,10 +105,13 @@ Then, find mass:
 \begin{equation}
     m = \rho V
 \end{equation}
+where $m$ is mass (kg) and $V$ is volume (m$^3$).
+
 Finally, weight:
 \begin{equation}
     W = mg
 \end{equation}
+where $g$ is gravitational acceleration (9.81 m/s$^2$), and $W$ is weight (N).
 
 \subsection{Percentage Change in Air Weight Due to Temperature Drop}
 Since the temperature changes, we recalculate density:
