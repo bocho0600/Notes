@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1740400983.01058 "/home/bobobo/Notes/my_resume/resume/resume.tex" "resume.pdf" "resume" 1740400983.54107 0
+["pdflatex"] 1740403502.55161 "/home/bobobo/Notes/my_resume/resume/resume.tex" "resume.pdf" "resume" 1740403503.0708 0
   "/etc/texmf/web2c/texmf.cnf" 1740279684.94307 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/bobobo/Notes/my_resume/resume/resume.tex" 1740400983.51856 10971 1bef2e8e455939db29827954a8d9d0bd ""
+  "/home/bobobo/Notes/my_resume/resume/resume.tex" 1740403502.37086 11384 1c4226b514b555733a7d372f37ee3f04 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1136768653 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
@@ -126,8 +126,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1740279704.51143 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740279778 8213302 9cdce7b7f24e310ee70b84f5b229ef4b ""
-  "resume.aux" 1740400983.48767 2174 7940a2709d162207181a475cd72b56a4 "pdflatex"
-  "resume.tex" 1740400983.51856 10971 1bef2e8e455939db29827954a8d9d0bd ""
+  "resume.aux" 1740403503.01926 2229 c42f8b3b086dafd64ad4c5fc296b810f "pdflatex"
+  "resume.tex" 1740403502.37086 11384 1c4226b514b555733a7d372f37ee3f04 ""
   (generated)
   "resume.aux"
   "resume.log"
