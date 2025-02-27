@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{fancyhdr}
+\usepackage[a4paper, margin=0.8in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{EGH445 - Modern Control}
+\rfoot{Page \thepage}
+
+\begin{document}
+
+\title{Summary of Equations in Aerodynamics Lecture Notes}
+\author{By Kelvin Le}
+\date{Modified: \today}
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+EGH445 is a course that explores fundamental engineering principles, modeling
+techniques, system dynamics, and control strategies. The course integrates
+theoretical and practical knowledge, focusing on modern computational tools.
+
+\section{System Modelling}
+System modeling involves representing a physical system mathematically to
+analyze and predict its behavior. Two major approaches include:
+\begin{itemize}
+      \item \textbf{Input-State-Output Model:}
+            \begin{align*}
+                  \dot{x} & = f(x, u) \\
+                  y       & = g(x, u)
+            \end{align*}
+            where:
+            \begin{itemize}
+                  \item $x$ is the state vector
+                  \item $u$ is the input vector
+                  \item $y$ is the output vector
+            \end{itemize}
+
+      \item \textbf{Linear Time-Invariant (LTI) System:}
+            \begin{align*}
+                  \dot{x} & = Ax + Bu \\
+                  y       & = Cx + Du
+            \end{align*}
+            where $A$, $B$, $C$, and $D$ are system matrices.
+\end{itemize}
+
+\subsection{State-Space Representation}
+The state-space model describes the system using state variables:
+\begin{align*}
+      x & = \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{bmatrix},
+      \quad u = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_m \end{bmatrix},
+      \quad y = \begin{bmatrix} y_1 \\ y_2 \\ \vdots \\ y_p \end{bmatrix}
+\end{align*}
+This representation allows a complete description of system dynamics.
+
+\subsection{State-Space Model of an Ordinary Differential Equation (ODE)}
+
+We consider a second-order differential equation of the form:
+
+\begin{align*}
+      \ddot{y}(t) + \mathbf{a} \dot{y}(t) + \mathbf{b} y(t) &= u(t)
+\end{align*}
+
+Rearranging for \( \ddot{y}(t) \):
+
+\begin{align*}
+      \ddot{y}(t) &= -\mathbf{a} \dot{y}(t) - \mathbf{b} y(t) + u(t)
+\end{align*}
+
+\subsubsection{Step 1: Define the State Variables}
+
+Define the state variables as:
+
+\begin{align*}
+      x_1(t) &= y(t), \\
+      x_2(t) &= \dot{y}(t)
+\end{align*}
+
+Substituting into the equation, we obtain the state-space representation:
+
+\begin{align*}
+      \dot{x}_1(t) &= x_2(t), \\
+      \dot{x}_2(t) &= -\mathbf{a} x_2(t) - \mathbf{b} x_1(t) + u(t)
+\end{align*}
+
+\subsubsection{Step 2: Express in Matrix Form}
+The state-space equations can be rewritten in matrix form as:
+
+\begin{align*}
+    \begin{bmatrix} \dot{x}_1 \\ \dot{x}_2 \end{bmatrix} &= 
+    \begin{bmatrix} 0 & 1 \\ -\mathbf{b} & -\mathbf{a} \end{bmatrix} 
+    \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} + 
+    \begin{bmatrix} 0 \\ 1 \end{bmatrix} u(t)
+\end{align*}
+
+\subsubsection{Step 3: Define the Output Equation}
+If we consider the output \( y(t) \) as one of the state variables, the output equation is:
+
+\begin{align*}
+    y(t) &= \begin{bmatrix} 1 & 0 \end{bmatrix} 
+    \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+\end{align*}
+
+\subsubsection{Step 4: Final State-Space Representation}
+Combining the state and output equations, the complete state-space representation is:
+
+\begin{align*}
+    \dot{x}(t) &= A x(t) + B u(t), \\
+    y(t) &= C x(t) + D u(t)
+\end{align*}
+
+where:
+
+\begin{align*}
+    A &= \begin{bmatrix} 0 & 1 \\ -\mathbf{b} & -\mathbf{a} \end{bmatrix}, \quad
+    B = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad
+    C = \begin{bmatrix} 1 & 0 \end{bmatrix}, \quad
+    D = \begin{bmatrix} 0 \end{bmatrix}
+\end{align*}
+
+This represents the final state-space form of the given second-order ODE.
+
+\subsection{Transfer Function of a State-Space Model}
+\begin{align*}
+      \begin{bmatrix} \dot{x} \\ \dot{x} \end{bmatrix}, \quad = \begin{bmatrix} 0 & 1 \\ -\mathbf{b} & -\mathbf{a} \end{bmatrix}, \quad
+  \end{align*}
+
+
+
+
+\section{Control System Analysis}
+A control system regulates the behavior of dynamic systems. Key elements
+include:
+\begin{itemize}
+      \item \textbf{Open-loop Control:} Control action does not depend on output.
+      \item \textbf{Closed-loop Control:} Control action adjusts based on feedback.
+\end{itemize}
+
+\subsection{Transfer Function Representation}
+The transfer function relates input and output in the frequency domain:
+\begin{align*}
+      G(s) = \frac{Y(s)}{U(s)} = \frac{b_0 + b_1s + \dots + b_m s^m}{a_0 + a_1s + \dots + a_n s^n}
+\end{align*}
+where $s$ is the Laplace variable.
+
+\section{Stability Analysis}
+Stability determines if a system returns to equilibrium after disturbances.
+\begin{itemize}
+      \item A system is \textbf{stable} if all poles of its transfer function have negative
+            real parts.
+      \item A system is \textbf{unstable} if any pole has a positive real part.
+      \item \textbf{Marginal Stability:} Poles are on the imaginary axis.
+\end{itemize}
+
+\section{Feedback Control Systems}
+Feedback control systems use sensors to adjust control inputs dynamically.
+\begin{itemize}
+      \item \textbf{Proportional Control (P):} $u(t) = K_p e(t)$
+      \item \textbf{Proportional-Integral Control (PI):} $u(t) = K_p e(t) + K_i \int e(t) dt$
+      \item \textbf{Proportional-Integral-Derivative (PID):}
+            \begin{align*}
+                  u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de(t)}{dt}
+            \end{align*}
+\end{itemize}
+where $e(t)$ is the error signal, and $K_p$, $K_i$, $K_d$ are control gains.
+
+\section{Frequency Response Analysis}
+The frequency response method analyzes system behavior under sinusoidal inputs.
+\begin{itemize}
+      \item \textbf{Bode Plot:} Logarithmic magnitude and phase plots.
+      \item \textbf{Nyquist Criterion:} Determines stability using contour mapping.
+      \item \textbf{Gain and Phase Margins:} Measures robustness.
+\end{itemize}
+
+\section{Conclusion}
+EGH445 covers key principles of system modeling, stability, and control,
+emphasizing theoretical analysis and computational tools.
+
+\end{document}
