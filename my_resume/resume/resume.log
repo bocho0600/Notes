@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.23)  28 FEB 2025 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.23)  28 FEB 2025 00:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,7 +496,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 208.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 208.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 272.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 283.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
@@ -505,7 +505,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 \end{document}
+l.375 \end{document}
                      [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./resume.aux)
@@ -517,16 +517,16 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  15399 strings out of 474222
  259394 string characters out of 5748733
- 1949975 words of memory out of 5000000
+ 1950975 words of memory out of 5000000
  37440 multiletter control sequences out of 15000+600000
  590901 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,486b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on resume.pdf (2 pages, 111850 bytes).
+Output written on resume.pdf (2 pages, 112104 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
