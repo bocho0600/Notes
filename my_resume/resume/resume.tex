@@ -68,6 +68,11 @@
     % bottom space:
     0.2 cm
 } % section title spacing
+\usepackage{fancyhdr} % for headers and footers
+\pagestyle{fancy} % use fancy header/footer style
+\fancyhf{} % clear default headers and footers
+\fancyhead[L]{\small \textbf{*By submitting this resume for job applications, 
+I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are safe to access.}} % Left-aligned header note
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
@@ -191,14 +196,14 @@
 \section{Summary}
 
 \begin{onecolentry}
-      \href{https://rendercv.com}{Kelvin} is an \textbf{undergraduate Mechatronics Engineer}, pursuing the bachelor degree at \textbf{Queensland University of Technology}.
+      \href{https://rendercv.com}{Kelvin} is an \textbf{undergraduate Mechatronics Engineer},
+      pursuing the bachelor degree at \textbf{Queensland University of Technology}.
+      He has a strong passion on addressing real-world challenges
+      with an engineering mindset, particularly through the application of robotics.
+
 \end{onecolentry}
 
-\vspace{0.2 cm}
-
-\begin{onecolentry}
-      The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
-\end{onecolentry}
+\vspace{0.1cm}
 
 \section{Technical Skills}
 
@@ -210,8 +215,8 @@
             \item \textbf{Hardware Design}: \textbf{CAD Design} (SolidWorks, Inventor), \textbf{Circuit \& PCB Design} (Altium Designer, LTSpice)
             \item \textbf{Machine Learning \& Computer Vision}: Computer Vision with \textbf{OpenCV},
             LLM and Machine Learning on \textbf{AWS \& Google Colab}.
-            \item \textbf{Programming Languages:} \textbf{Python} (for ROS2, Machine Learning, Embedded),
-            \textbf{C/C++} (Embedded systems and ROS2 integration), \textbf{C/C++} (Objective Oriented Programming),
+            \item \textbf{Programming Languages:} \textbf{Python} (ROS2, Machine Learning, Embedded),
+            \textbf{C/C++} (Embedded systems and ROS2 integration, System Programming), \textbf{C/C++} (OOP),
             \textbf{HTML/CSS/JavaScript} (Web Development).
 
       \end{highlightsforbulletentries}
@@ -227,7 +232,7 @@
 \vspace{0.10 cm}
 \begin{onecolentry}
       \begin{highlights}
-            \item GPA: 6.8/7.0 (\href{https://example.com}{Academic Transcipt})
+            \item GPA: 6.7/7.0 (\href{https://example.com}{Academic Transcipt})
             \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
             \item \textbf{Achivements \& Certifications:} \textbf{QUT Dean's Scholar},
             Executive Deans' Commendation for Academic Excellence (2023-Now),
@@ -279,12 +284,13 @@
 \begin{onecolentry}
 
       \begin{highlights}
-            \item Improved vehicle performance by 20\% by replacing the custom ROS2 controller
-            component with built-in controllers from the \texttt{ros2\_control} framework.
+            \item Improved vehicle (\href{https://qutmotorsport.com/qev-3d/}{QEV-3D}) performance
+            by \textbf{20\%} by replacing the custom ROS2 controller component with
+            built-in controllers from the \texttt{ros2\_control} framework.
             \item Migrated and optimized the existing ROS2 Humble base to the lattest base.
-            \item Ensured 70\% effective of LiDAR point clode by tuning the ground segmenter \&
-            refined LiDAR cone detection.
-            \item Implemented
+            \item Ensured \textbf{70\%} effective of LiDAR point clode by tuning the ground
+            segmenter \& refined LiDAR cone detection.
+            \item Implemented CANBUS package for the vehicle to communicate with the Hardware, ECUs.
 
       \end{highlights}
 \end{onecolentry}
@@ -294,21 +300,17 @@
 \begin{twocolentry}{
             June 2003 – Aug 2003
       }
-      \textbf{Software Engineer Intern}, Microsoft -- Redmond, WA\end{twocolentry}
+      \textbf{STEM Lead Instructor}, Juniour Engineers -- Brisbane, QLD\end{twocolentry}
 
 \vspace{0.10 cm}
 \begin{onecolentry}
       \begin{highlights}
-            \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool
-            windows.
-            \item Created a service to provide gradient across VS and VS add-ins, optimizing its
-            performance via caching.
-            \item Built an app to compute the similarity of all methods in a codebase, reducing
-            the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-            \item Created a test case generation tool that creates random XML docs from XML
-            Schema.
-            \item Automated the extraction and processing of large datasets from legacy systems
-            using SQL and Perl scripts.
+            \item Cooperating with the team to develop a curriculum for the program in (AI,
+            Robotics, programmming).
+            \item Leading classes with < 20 students in varying age groups (7-14) to teach them
+            about robotics and programming
+            \item Designed and manufactured PCBs and 3D-printable, 
+            assemblable robot parts for teaching materials.
       \end{highlights}
 \end{onecolentry}
 
