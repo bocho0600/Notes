@@ -1,0 +1,71 @@
+%% Beginning of the `template.tex' file.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work can be distributed or modified under the 
+% conditions of the LaTeX Project Public License V1.3c, 
+% available at http://www.latex-project.org/lppl/.
+%
+% Translation to Spanish by Fausto M. Lagos (piratax007@protonmail.ch), 2016.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible font size options ('10pt', '11pt' and '12pt'), paper ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv styles
+\moderncvstyle{casual}                             % Available styles are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % uncomment to set the default font; use '\sfdefault' for sans serif by default, '\rmdefault' for roman, or any other font name installed on your system
+%\nopagenumbers{}                                  % uncomment to remove automatic page numbering for multi-page letters
+
+% Character encoding
+\usepackage[utf8]{inputenc}                        % If not using xelatex or lualatex, replace with the encoding you're using
+%\usepackage{CJKutf8}                              % uncomment if you need to use CJK for writing in Chinese, Japanese, or Korean
+\usepackage[english, spanish]{babel}               % uncomment if your letter is written in a different language from English
+
+% Margin configuration
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % uncomment if you want to adjust the width of the date column
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, to force the name width. The length is normally calculated to avoid overlaps with personal information; uncomment this line at your own risk
+
+% Personal Information
+\name{Kelvin}{Le}
+\title{Resume Title}                               % optional, remove or comment if you don't want your personal title to appear
+% optional, remove or comment if you don't want location data; postal code and country can be omitted or left blank
+          % optional, remove or comment if you don't want to include your fax number
+\email{john@doe.org}                               % optional, remove or comment if you don't want to include your email address
+\homepage{www.johndoe.com}                         % optional, remove or comment if you don't want to include your website
+\extrainfo{Additional Information}                  % optional, remove or comment if you don't want additional info
+\photo[64pt][0.4pt]{image}                         % optional, remove or comment if you don't want to include your photo or logo; '64pt' is the image height, 0.4pt is the border thickness, 'image' is the image file's location and name
+\quote{Some quote}                                 % optional, remove or comment if you don't want a quote
+
+% to show numerical labels in bibliography (by default, no labels are shown); uncomment the following lines only if you're using bibliographic references in your letter
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]} % Consider replacing line 44 with this one
+
+% Bibliography with multiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% Recipient's details
+\recipient{UFR Hiring Manager}{Address and City}
+\date{\today}
+\opening{To whom it may concern,}
+\closing{Sincerely,}
+\enclosure[Attachments]{Title of the Attachments}          % optional, remove or comment if no attachments are included 
+\makelettertitle
+
+I am writing to express my interest in the [Position] at [Company Name]. I have a strong background in [field/industry], and I believe my experience and skills would make me a valuable addition to your team. 
+
+I have worked on a wide range of projects, including [specific examples of relevant experience]. My ability to [key skills related to the position] has allowed me to contribute effectively to past teams and achieve [specific outcomes]. I am excited about the opportunity to bring my [skills] to [Company Name] and contribute to its continued success.
+
+I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to the success of your team. Thank you for considering my application.
+
+\makeletterclosing
+
+\end{document}
