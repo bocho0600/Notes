@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1742567955 "/home/kelvin_2204/Notes/my_resume/coverletter/coverletter.tex" "coverletter.pdf" "coverletter" 1742567957
+["pdflatex"] 1742601237 "/home/kelvin_2204/Notes/my_resume/coverletter/coverletter.tex" "coverletter.pdf" "coverletter" 1742601237
   "/etc/texmf/web2c/texmf.cnf" 1742001073 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/kelvin_2204/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsl1095.600pk" 1742039684 14668 3b3354370295a64be5474fc974e43fdf ""
-  "/home/kelvin_2204/Notes/my_resume/coverletter/coverletter.tex" 1742567955 4653 57c5a2a6ee3ab43d2a31698414f4d6c5 ""
+  "/home/kelvin_2204/Notes/my_resume/coverletter/coverletter.tex" 1742601236 5679 e322593be6f0f22999dc6dc1cef3e209 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcsl1095.tfm" 1136768653 2048 f14c32a4873cb0d32bc5392114574704 ""
@@ -168,9 +168,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742039562 4073795 a82a847ac97773bf4a607ab050efa3a1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742001079 1435906 e62fcbb69ccb50c70ab3a8144fce8690 ""
-  "coverletter.aux" 1742567957 688 f73b89d00fafe2f15b81f1bd7ee90b1f "pdflatex"
-  "coverletter.out" 1742567955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "coverletter.tex" 1742567955 4653 57c5a2a6ee3ab43d2a31698414f4d6c5 ""
+  "coverletter.aux" 1742601237 688 f73b89d00fafe2f15b81f1bd7ee90b1f "pdflatex"
+  "coverletter.out" 1742601237 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "coverletter.tex" 1742601236 5679 e322593be6f0f22999dc6dc1cef3e209 ""
   (generated)
   "coverletter.aux"
   "coverletter.log"
