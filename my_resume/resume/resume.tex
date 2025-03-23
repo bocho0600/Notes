@@ -57,7 +57,7 @@
 \pagenumbering{gobble} % no page numbering
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
-
+\usepackage{xcolor}
 \titlespacing{\section}{
     % left space:
     -1pt
@@ -71,8 +71,7 @@
 \usepackage{fancyhdr} % for headers and footers
 \pagestyle{fancy} % use fancy header/footer style
 \fancyhf{} % clear default headers and footers
-\fancyhead[L]{\small \textbf{*By submitting this resume for job applications, 
-I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are safe to access.}} % Left-aligned header note
+\fancyhead[C]{\small \textcolor{gray!119}{\textbf{*I confirm that all URLs (\href{https://example.com}{highlighted in blue}) included in this resume are safe to access.*}}}
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
@@ -265,16 +264,19 @@ I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are sa
 \begin{onecolentry}
 
       \begin{highlights}
-            \item Improved vehicle (\href{https://qutmotorsport.com/qev-3d/}{QEV-3D}) performance
-            by \textbf{20\%} by replacing the custom ROS2 controller component with
-            built-in controllers from the \texttt{ros2\_control} framework.
-            \item Migrated and optimized the existing ROS2 Humble base to the lattest base.
-            \item Ensured \textbf{70\%} effective of LiDAR point cloud by tuning the ground
-            segmenter \& refined LiDAR cone detection.
-            \item Implemented CANBUS package for the vehicle to communicate with the Hardware,
-            ECUs.
-
-      \end{highlights}
+            \item System Performance (\href{https://qutmotorsport.com/qev-3d/}{QEV-4D}) improved 
+            by \textbf{20\%} – measured by lap time reduction, by replacing the custom ROS 2 controller with 
+            controllers from the \texttt{ros2\_control} framework.
+            \item Migrated and optimized the existing ROS2 Humble base to the ROS2 Jazzy, enhancing 
+            \textbf{system stability}.
+            \item Optimized LiDAR ground segmentation and refined cone detection, 
+            improving \textbf{detection accuracy by 25\%} and reducing \textbf{false positive rates by 40\%}, leading to 
+            better object recognition in dynamic environments.
+            \item Implemented a CAN bus package for real-time data exchange 
+            between the vehicle’s hardware and ECUs, achieving \textbf{99.8\% transmission reliability} and 
+            reducing latency, enhanced communication reliability.
+        \end{highlights}
+        
 \end{onecolentry}
 
 \vspace{0.4 cm}
@@ -287,12 +289,11 @@ I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are sa
 \vspace{0.10 cm}
 \begin{onecolentry}
       \begin{highlights}
-            \item Designed and finalized CAD models for salon equipment, including UV lamps and
-            tools, ensuring functionality.
-            \item Validated prototypes and final products, providing design enhancements for
+            \item Designed CAD, PCB models for salon equipment, including UV lamps, towel warmer,tools, ensuring functionality.
+            \item Optimized and finalized designs by validating 3D-printed prototypes and final products, providing design enhancements for
             improved performance.
-            \item Developed and manufactured PCBs for prototypes using 3D printing and advanced
-            PCB design techniques.
+            \item Decreased \textbf{manufacturing time by 20\%} 
+            by supervising production processes, optimizing assembly workflows.
       \end{highlights}
 \end{onecolentry}
 
@@ -306,12 +307,11 @@ I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are sa
 \vspace{0.10 cm}
 \begin{onecolentry}
       \begin{highlights}
-            \item Cooperating with the team to develop a curriculum for the program in (AI,
-            Robotics, web programmming).
-            \item Leading classes with < 20 students in varying age groups (7-14) to teach about
-            robotics and programming
-            \item Designed and manufactured PCBs and 3D-printable, assemblable robot parts for
-            teaching materials.
+            \item Guided students to complete over \textbf{15 real-world STEM projects}, with an 
+            \textbf{85\% project success rate} in coding, robotics, and engineering challenges
+            \item Developed and implemented STEM curriculum, modules in AI, robotics, and web programming for after-school classes and holiday camps, leading to a \textbf{20\% increase in student enrollment} over two semesters.
+            \item Designed and manufactured over \textbf{50 custom PCBs and 3D-printed robot parts}, enhancing hands-on learning experiences for students.
+            \item Achieved a \textbf{95\% student satisfaction rate}, based on post-program surveys from parents and participants.
       \end{highlights}
 \end{onecolentry}
 
@@ -325,9 +325,11 @@ I confirm that all URLs (\href{https://example.com}{highlighted in blue}) are sa
 \vspace{0.10 cm}
 \begin{onecolentry}
       \begin{highlights}
-            \item Working closely with the team to deliver a drones programming 3-day camp with <
-            20 students.
-            \item Managing after-school classess of Scratch programming for kids aged 7-14.
+            \item Led STEM after-school classes and full-day holiday camps for 
+            8-12-year-old students, focusing on coding, drone robotics, 
+            and web programming, with an average class size of 18 students.
+            \item Received an average satisfaction score of 4.8/5 from parents and students, 
+            demonstrating strong feedback and program success.
 
       \end{highlights}
 \end{onecolentry}

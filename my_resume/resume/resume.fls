@@ -675,6 +675,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
