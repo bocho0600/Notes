@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.15)  24 MAR 2025 02:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.15)  24 MAR 2025 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,16 +499,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 212.
+(Font)              <9> on input line 210.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 212.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 269.
+(Font)              <6> on input line 210.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 267.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 411.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 407.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 ) 
@@ -516,18 +516,18 @@ AED: lastpage setting LastPage
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 \end{document}
+l.432 \end{document}
                      [2] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
  15336 strings out of 480171
  260118 string characters out of 5894489
- 567891 words of memory out of 5000000
+ 567781 words of memory out of 5000000
  33076 multiletter control sequences out of 15000+600000
  505515 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,11n,63p,491b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,491b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on resume.pdf (2 pages, 74352 bytes).
+Output written on resume.pdf (2 pages, 74475 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

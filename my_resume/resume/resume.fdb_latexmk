@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1742747067 "/home/kelvin_2204/Notes/my_resume/resume/resume.tex" "resume.pdf" "resume" 1742747068
+["pdflatex"] 1742776146 "/home/kelvin_2204/Notes/my_resume/resume/resume.tex" "resume.pdf" "resume" 1742776147
   "/etc/texmf/web2c/texmf.cnf" 1742001073 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kelvin_2204/Notes/my_resume/resume/resume.tex" 1742747067 16277 4626c45647995ccff70f575e66112b8d ""
+  "/home/kelvin_2204/Notes/my_resume/resume/resume.tex" 1742776146 16463 b0599a886664c66b33482492ee22f2f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1136768653 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
@@ -120,8 +120,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742039562 4073795 a82a847ac97773bf4a607ab050efa3a1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742001079 1435906 e62fcbb69ccb50c70ab3a8144fce8690 ""
-  "resume.aux" 1742747068 2678 c421d151ddbc133ad89c5aa972191861 "pdflatex"
-  "resume.tex" 1742747067 16277 4626c45647995ccff70f575e66112b8d ""
+  "resume.aux" 1742776147 2678 f00089a000be4ab570ef4475734e14c1 "pdflatex"
+  "resume.tex" 1742776146 16463 b0599a886664c66b33482492ee22f2f1 ""
   (generated)
   "resume.aux"
   "resume.log"
