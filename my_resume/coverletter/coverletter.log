@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.15)  26 MAR 2025 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.15)  27 MAR 2025 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,20 +645,19 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write4
 \openout4 = `coverletter.out'.
 
-\pagenumberwidth=\skip101
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 50.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/sl' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 58.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 98.
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 95.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./coverletter.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./coverletter.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -666,18 +665,18 @@ Package rerunfilecheck Info: File `coverletter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25609 strings out of 480171
- 495753 string characters out of 5894489
- 777603 words of memory out of 5000000
- 43119 multiletter control sequences out of 15000+600000
- 475225 words of font info for 61 fonts, out of 8000000 for 9000
+ 25604 strings out of 480171
+ 495724 string characters out of 5894489
+ 775616 words of memory out of 5000000
+ 43121 multiletter control sequences out of 15000+600000
+ 475030 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 129i,13n,122p,1054b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 129i,12n,122p,1054b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} </home/kelvin_2204/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsl1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on coverletter.pdf (2 pages, 86859 bytes).
+Output written on coverletter.pdf (1 page, 84332 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  16397 words of extra memory for PDF output out of 17280 (max. 10000000)
 
