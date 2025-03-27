@@ -19,6 +19,7 @@
 % Character encoding
 \usepackage[utf8]{inputenc}                        % If not using xelatex or lualatex, replace with the encoding you're using
 
+\usepackage{graphicx}
 
 % Margin configuration
 \usepackage[scale=0.75]{geometry}
@@ -28,9 +29,8 @@
 % Personal Information
 \name{Kelvin}{Le}
 \title{Resume Title}                               % optional, remove or comment if you don't want your personal title to appear
-% optional, remove or comment if you don't want location data; postal code and country can be omitted or left blank
-          % optional, remove or comment if you don't want to include your fax number
-\email{kelvin.minhle1002@gmail.com}                               % optional, remove or comment if you don't want to include your email address
+\email{kelvin.minhle1002@gmail.com}                 % optional, remove or comment if you don't want to include your email address
+\phone[mobile]{+61 423 686 585}                   % Add your phone number here
 \homepage{www.johndoe.com}                         % optional, remove or comment if you don't want to include your website
 
 
@@ -52,11 +52,11 @@
 % Recipient's details
 \recipient{\companyname}{Brisbane, QLD 4000}
 \date{\today}
-\opening{Dear Recruitment Team of \companyname,}
+\opening{Dear Talent and Recruitment Team of \companyname,}
 \closing{Sincerely,}
-\enclosure[Attachments]{Title of the Attachments}          % optional, remove or comment if no attachments are included 
-\makelettertitle
 
+\enclosure[Attachments]{Resume, Cover Letter, Academic Transcript}          % optional, remove or comment if no attachments are included 
+\makelettertitle
 Australia is renowned for being a global hub for the energy and mining industries, 
 known for its innovation and advanced technology in production processes. 
 Through my in-depth research into the undergraduate opportunities within these industries, 
@@ -70,26 +70,33 @@ As an undergraduate \textbf{Mechatronics/Aerospace student},
  and electrical engineering. I have always been highly interested in the opportunity to contribute to \companyname’s 
  innovative work in robotics and mining through this internship position since I started my engineering career.
 
- As I progress through my third year of an Mechatronics degree at QUT, 
- I recognize that undergraduate engineers are not only the future of the industry but 
- also require hands-on, practical experience alongside the academics. 
- This has driven me to continuously seek opportunities to expand my knowledge, skills, 
- and experience in the field. 
- As a result, I have actively participated in various projects both as a team and individually, highlighted in my resume. 
- I take pride in my individual projects, which are highly practical and hands-on, 
- designed to address specific project needs.
+ As I progress through my third year at QUT, I recognize that undergraduate engineers need both academic knowledge 
+ and hands-on experience. This has driven me to actively seek opportunities to expand my skills and knowledge. 
+ I have participated in various projects, both individually and as part of a team, and have been recognized for my academic 
+ efforts, including earning the \textbf{Dean\'s Commendation} and being part of the \textbf{QUT Dean\'s Scholars program and College of 
+ Excellence}. I take pride in my practical, hands-on projects, which address specific needs and showcase my achievements.
 
-In my recent role, I was envolved in a system department team that was responsible for the 
-autonomous system on a car, which was a part of the QUT Motorsport team.
-I was responsible for sys of the system,
+During my recent internship with the QUT Motorsport team, I was part of the Driverless subteam, 
+which is responsible for designing autonomous driving systems for the team's electric 
+race car. My primary responsibility involved updating and maintaining the 
+ROS 2 controller system, also maintaining the system communication protocols via CANBUS, 
+these are critical components of the vehicle's autonomous capabilities. 
+This role required me to quickly acquire and apply knowledge beyond my formal education 
+while also enhancing my programming skills in \textbf{C++, Python, XML}, and deepening my 
+understanding of embedded systems. As a result of these efforts, the \textbf{vehicle's 
+performance improved by 20\%}
+compared to its previous version,measured during the track testing session, with an \textbf{on-time task completion rate of 95\%}.
 
 
-I have worked on a wide range of projects, including [specific examples of relevant experience]. 
-My ability to [key skills related to the position] has allowed me to contribute effectively to past teams and achieve [specific outcomes]. 
-I am excited about the opportunity to bring my [skills] to [Company Name] and contribute to its continued success.
 
-I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to the success of your team. Thank you for considering my application.
+I deeply value every opportunity to contribute to engineering and foster my personal growth. 
+My work experience, combined with my academic background, makes me an ideal candidate for the internship role at \companyname. 
+I can be easily reached via email or phone, as provided in the footer of this letter. 
+I look forward to the opportunity to discuss my application further. Thank you for your time and consideration.
+
 
 \makeletterclosing
+
+
 
 \end{document}
